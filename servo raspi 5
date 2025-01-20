@@ -6,7 +6,7 @@ import time
 from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-token = "k5AQ2I4QJTQpuQ5z6j-l6RI_f3VLgVAwFojBzjNevqhkj-gJ7e73uBqvspOnInur6paYOGfUvHSfQEdPsRJ4xw=="
+token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 org = "pnb"
 host = "https://us-east-1-1.aws.cloud2.influxdata.com"
 
