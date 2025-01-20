@@ -1,0 +1,15 @@
+COMMAND PADA PUTTY
+
+mkdir <nama_direktori>    # Perintah ini digunakan untuk membuat direktori baru (folder).
+cd <nama_direktori>       # Perintah ini digunakan untuk berpindah ke direktori tertentu.
+
+sudo apt update
+sudo apt install python3
+python3 --version
+
+sudo apt install influxdb
+
+sudo apt install python3-pip
+
+sudo apt install python3-rpi.gpio
+pip install RPi.GPIO
