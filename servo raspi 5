@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+#MEMBACA SUDUT SERVO DAN MEMVISUALISASIKAN KE INFLUX DB DAN GRAFANA
+
 import os
 import RPi.GPIO as GPIO
 import lgpio
@@ -6,11 +7,10 @@ import time
 from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-org = "pnb"
-host = "https://us-east-1-1.aws.cloud2.influxdata.com"
-
-database = "servo"
+token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"            # Isi dengan token influxdb anda
+org = "xxx"                                               # Isi dengan org influxdb anda
+host = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"    # Isi dengan host influxdb anda
+database = "xxxxx"                                        # Isi dengan nama database influxdb anda
 
 print(f"Using token: {token}")
 print(f"Organization: {org}, Host: {host}, Bucket: {database}")
